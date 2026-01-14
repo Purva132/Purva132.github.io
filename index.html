@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Purva Vilas Muley</title>
+  <title>Purva Vilas Muley | Astronomy & Cosmology</title>
   <meta charset="UTF-8">
+
   <style>
     body {
       margin: 0;
-      padding: 40px;
+      padding: 0;
       font-family: "Georgia", serif;
       background: radial-gradient(circle at top, #0b1d3a, #000000);
       color: #eaeaea;
-      line-height: 1.7;
+      line-height: 1.8;
+    }
+
+    .container {
+      padding: 60px;
+      max-width: 1200px;
+      margin: auto;
     }
 
     h1 {
-      font-size: 42px;
+      font-size: 48px;
       margin-bottom: 10px;
       color: #ffffff;
     }
 
+    h2 {
+      font-size: 26px;
+      color: #9ecbff;
+      margin-top: 40px;
+    }
+
     p {
-      max-width: 800px;
       font-size: 18px;
+      max-width: 900px;
     }
 
     nav {
-      margin: 30px 0;
-      padding: 10px 0;
+      margin: 30px 0 50px 0;
+      padding: 12px 0;
       border-top: 1px solid #444;
       border-bottom: 1px solid #444;
     }
@@ -34,38 +47,105 @@
     nav a {
       color: #9ecbff;
       text-decoration: none;
-      margin-right: 20px;
+      margin-right: 22px;
       font-size: 16px;
     }
 
     nav a:hover {
       text-decoration: underline;
     }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      flex: 2;
+    }
+
+    .hero-img {
+      flex: 1;
+    }
+
+    .hero-img img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 8px;
+      border: 2px solid #555;
+    }
+
+    .highlight {
+      color: #cfe6ff;
+      font-weight: bold;
+    }
   </style>
 </head>
 
 <body>
 
-<h1>Purva Vilas Muley</h1>
-<p>
-Undergraduate student passionate about observational cosmology, dark matter,
-and the large scale structure of the Universe.
-</p>
+<div class="container">
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="research.html">Research</a>
-  <a href="projects.html">Projects</a>
-  <a href="cv.html">CV</a>
-  <a href="contact.html">Contact</a>
-</nav>
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Purva Vilas Muley</h1>
 
-<p>
-Welcome to my academic space. I am preparing for research focused summer programmes
-and future graduate studies in physics and astronomy, with a deep interest in
-understanding the invisible structure of the Universe.
-</p>
+      <p>
+        Undergraduate student deeply interested in <span class="highlight">observational cosmology</span>,
+        <span class="highlight">dark matter</span>, and the <span class="highlight">large scale structure</span>
+        of the Universe.
+      </p>
+    </div>
+
+    <div class="hero-img">
+      <img src="https://lh3.googleusercontent.com/a/ACg8ocKsXMhICV6SPVzd8B0Cc0f0Dvry2vvqYbcZg-3oslvZo9gWNmg=s96-c" alt="Purva Vilas Muley">
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- ABOUT SNAPSHOT -->
+  <h2>About Me</h2>
+
+  <p>
+    I am an undergraduate student driven by a strong curiosity about the Universe and its
+    fundamental structure. My academic interests lie at the intersection of astronomy and
+    physics, with a particular focus on understanding the invisible components of the cosmos.
+  </p>
+
+  <p>
+    I am especially interested in how <span class="highlight">galaxy groups and clusters</span>
+    can be used as tracers of underlying dark matter halos, and how multi wavelength observations
+    reveal the physical processes shaping cosmic environments.
+  </p>
+
+  <!-- ACADEMIC DIRECTION -->
+  <h2>Academic Direction</h2>
+
+  <p>
+    Alongside formal coursework and independent study, I actively seek research oriented
+    environments that allow me to work with real data, develop analytical thinking, and
+    collaborate with researchers in astronomy and astrophysics.
+  </p>
+
+  <p>
+    My long term goal is to pursue graduate studies in physics or astronomy and contribute to
+    fundamental research addressing open questions in cosmology, including the nature of
+    dark matter and the formation of large scale cosmic structures.
+  </p>
+
+</div>
 
 </body>
 </html>
